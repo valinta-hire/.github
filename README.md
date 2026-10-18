@@ -3,9 +3,8 @@
 The organisation's default community files. GitHub uses each one for any repository in `valinta-hire` that has no
 file of that type of its own. It holds no code and deploys nothing.
 
-**Status: not yet in force.** GitHub applies an organisation's defaults only from a public `.github` repository, and
-this one is private until the owner decides to make it public. The label script works either way. Every repository
-still carries its own copies, as the
+**Status: live.** GitHub applies an organisation's defaults only from a public `.github` repository; this one has
+been public since 18 Oct 2026. Every repository still carries its own copies, as the
 [Repository standard](https://app.notion.com/p/3fbaf1036748817da5f9e303784aeb19) requires.
 
 ## Links
@@ -54,4 +53,4 @@ None. GitHub reads the files on the default branch, `main`, directly.
 | The source of the label set       | valinta's labels; `scripts/sync-labels.sh` copies them                                  |
 | Work items and bugs               | GitHub Issues, never Notion                                                             |
 
-Last reviewed: 17 Oct 2026
+Last reviewed: 18 Oct 2026
